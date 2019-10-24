@@ -1,4 +1,5 @@
 node('gradle-label'){
-
+stage(){
+}
 
 }
