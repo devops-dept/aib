@@ -18,16 +18,16 @@
     <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
-      <url>scp://repo/maven2</url>
+      <id>aib-releases</id>
+      <name>aib-releases</name>
+      <url>http://ip-172-31-13-17.us-west-1.compute.internal:8081/nexus/content/repositories/aib-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>propSnap</id>
-      <name>Propellors Snapshots</name>
-      <url>sftp://propellers.net/maven</url>
+      <id>aib-snapshots</id>
+      <name>aib-snapshots</name>
+      <url>http://ip-172-31-13-17.us-west-1.compute.internal:8081/nexus/content/repositories/aib-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
